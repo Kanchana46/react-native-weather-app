@@ -19,11 +19,11 @@ export default function App() {
 
   const [units, setUnits] = useState('metric');
 
-  const API_KEY = '8a21bc3bfc4fc17883211d4542521db7';
+  const API_KEY = //API-Key;
 
-  useEffect(() => {
-    load();
-  }, [units]);
+    useEffect(() => {
+      load();
+    }, [units]);
 
   const load = async () => {
     setCurrentWeather(null);
